@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  section h2 {
+    margin: auto;
+    text-align: center;
+  }
+
+  /* apply styles to <header> */
+  header {
+    padding: 20px 35px;
+    background-color: black;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    display: inline;
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+    flex-wrap: wrap;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: auto;
+  }
+
+    /* About section start */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+
+  .hero img {
+    height: 37.5rem;
+    width: 37.5rem;
+  }
+  
+  .bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  }
+  
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+  }
+    /* About section end */
+   
+    /* Work section start */
+  .work {
+    background-color: white;
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .work-pic {
+    height: 100%;
+    width: 100%;
+  }
+
+  .work-pic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #888;
+    z-index: 10;
+  }
+
+  .work-pic-wrapper {
+    width: 65%;
+    height: 60%;
+    position: relative;
+  }
+
+  .work-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .work-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .work-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+    /* Work section end */
+
+  /* Form section start */
+  .contact-form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;  
+      margin: auto;
+  }
+
+  .info {
+      padding: 8px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;  
+  }
+  .info label, .info input {
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+    /* Form section end */
