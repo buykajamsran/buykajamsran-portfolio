@@ -1,6 +1,6 @@
 # buykajamsran-portfolio
 
-![](images/Portfolio Screenshot.jpg)
+![](images/Portfolio20%Screenshot.jpg)
 
 ## Description
 Buyka Jamsran's portfolio.
