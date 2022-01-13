@@ -128,6 +128,7 @@
     width: 21.875rem;
     padding: 1rem;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .work-card {
